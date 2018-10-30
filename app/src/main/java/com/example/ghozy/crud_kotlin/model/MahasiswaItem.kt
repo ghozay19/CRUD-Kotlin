@@ -2,8 +2,7 @@ package com.example.ghozy.crud_kotlin.model
 
 import com.google.gson.annotations.SerializedName
 
-
-data class ResultItem(
+data class MahasiswaItem(
 
 	@field:SerializedName("mahasiswa_alamat")
 	val mahasiswaAlamat: String? = null,
